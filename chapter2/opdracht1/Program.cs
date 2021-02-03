@@ -6,7 +6,13 @@ namespace opdracht1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.Write("Geef je naam: ");
+            string name = Console.ReadLine();
+            Console.Write("geef je leeftijd: ");
+            int age = int.Parse(Console.ReadLine());
+            Console.WriteLine("Hello " + name);
+            Console.WriteLine("je bent " + age + " jaar oud");
+
         }
     }
 }
