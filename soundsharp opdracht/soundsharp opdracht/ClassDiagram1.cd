@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="soundsharp_opdracht.Track">
+    <Position X="7.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Track.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="length" />
+      <Property Name="style" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="soundsharp_opdracht.TrackList">
+    <Position X="7.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TrackList.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Track" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="soundsharp_opdracht.Mp3Player">
+    <Position X="7.25" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Mp3Player.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="TrackList" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="soundsharp_opdracht.CdDiscMan">
+    <Position X="5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CdDiscMan.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="soundsharp_opdracht.AudioDevice">
+    <Position X="5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AudioDevice.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="soundsharp_opdracht.MemoRecorder">
+    <Position X="2.75" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MemoRecorder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="soundsharp_opdracht.Time">
+    <Position X="4.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Time.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="soundsharp_opdracht.category">
+    <Position X="7.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>category.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
